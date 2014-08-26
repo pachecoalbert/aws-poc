@@ -1,1 +1,3 @@
-  include test 
+file { '/tmp/hello' :
+  content => "Hell, world\n",
+  }
